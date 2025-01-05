@@ -1,0 +1,41 @@
+.custom-card{
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+}
+.go{
+    margin-top: 6vw;
+}
+.latest-blog{
+    margin: 5vw 5vw;
+    
+}
+.post-div{
+    width: 80vw;
+    height: 20vw;
+    margin: 2vw 2vw;
+    display: flex;
+    align-items: center;
+    
+}
+.post-space{
+    display: flex;
+    
+}
+.post-content{
+    margin: 1vw;
+    width: 50vw;
+}
+
+.image-container {
+    width: 25vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:800px){
+    
+}

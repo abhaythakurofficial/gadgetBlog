@@ -1,0 +1,29 @@
+{% extends "basic.html" %}
+{% block title %}About{% endblock title %}
+{% block aboutactive %}active{% endblock aboutactive%}
+{% block body %}
+<header class="bg-primary text-white text-center py-4">
+    <h1>About the Blog</h1>
+</header>
+
+<div class="container mt-5 " style="height: 50vh;">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>About Our Blog</h2>
+            <p>
+                Welcome to our blog! We aim to provide insightful content on various topics ranging from technology,
+                lifestyle, personal growth, and much more. Each post is crafted by passionate writers dedicated to
+                sharing their knowledge and experiences with you.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h4>Meet Our Writers</h4>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="{% url 'writer' %}" class="text-decoration-none">Abhay Thakur</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock body %}

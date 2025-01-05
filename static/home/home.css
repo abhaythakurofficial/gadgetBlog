@@ -1,0 +1,99 @@
+/* .custom-card{
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+}
+.go{
+    margin-top: 6vw;
+}
+.latest-blog{
+    margin: 5vw 5vw;
+    
+}
+.post-div{
+    width: 80vw;
+    height: 20vw;
+    margin: 2vw 2vw;
+    display: flex;
+    align-items: center;
+    
+}
+.post-space{
+    display: flex;
+    
+}
+.post-content{
+    margin: 1vw;
+    width: 50vw;
+}
+.img-field{
+    width: 100%;
+    height: inherit;
+}
+.img-div{
+    width: 25vw;
+    height: 20vw;
+    padding-left: 2vw;
+}
+
+
+
+@media screen and (max-width:800px){
+    
+} */
+
+
+
+/* Ensure card takes full width on small screens and adjusts accordingly */
+.blog-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.img-field {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-space {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+@media (max-width: 767.98px) {
+    .img-field {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card-title, .card-text {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .card-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .card-text {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,287 @@
+[33mcommit a6a6bfddf00d34c14527cb7e3ead1e6119cb17e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sun Jan 5 16:33:34 2025 +0530
+
+    i am stuck in showing image through google drive i will fix it very soon
+
+[33mcommit 2a1c7ae02d0ffa3023ee30569f0d69e2324ba3e7[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sun Jan 5 11:47:22 2025 +0530
+
+    add google drive api for images storage
+
+[33mcommit 5e985a3c2f8fb9146636360e72725b8d946a0dfd[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Jan 4 21:00:43 2025 +0530
+
+    change module some
+
+[33mcommit 1f8ab486ab5c71a4c20a28f2708e869371b1d224[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Jan 4 20:52:36 2025 +0530
+
+    add js file of ads in root directory
+
+[33mcommit c5f6aecd7d8fa08781434df29d2eef9f972e5d61[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Jan 4 20:46:27 2025 +0530
+
+    add meta for ads on site
+
+[33mcommit 355454540882b167a633d69059e61feb89c5c1c0[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Jan 4 18:44:40 2025 +0530
+
+    create full project with new movies section for anime upload and it is good to start and everything is work in development
+
+[33mcommit dfea6e2949a8ddb959fe146a4e08b97bcb9b76e9[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Jan 4 16:03:54 2025 +0530
+
+    remove double media file root and remove drive photo link
+
+[33mcommit 757b9b4bb2d35f3abea180e12d974c63cb29f9d3[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Jan 3 21:24:55 2025 +0530
+
+    the is the all step and make ready to deploy on render with database
+
+[33mcommit ed12656fb0d395f3cc9227add8cc1b6e880621e4[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Jan 3 20:37:28 2025 +0530
+
+    dj_database_url add this to installed app
+
+[33mcommit 0c5c57e32fc514466fdd29c1b381f2ab63aaf53d[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Jan 3 20:30:38 2025 +0530
+
+    change again like before
+
+[33mcommit 85ee5b4e31c36b7fc064bb1650ce1a01f83636e0[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Jan 3 20:26:14 2025 +0530
+
+    change setting.py for database
+
+[33mcommit 3988815ed8418de48791677e38a09379325c7d58[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Jan 3 19:55:40 2025 +0530
+
+    debug is normal true and give database url
+
+[33mcommit 7cfc2732245e9ea4b80657614924477d26280303[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 21:32:31 2025 +0530
+
+    create database in render and connect
+
+[33mcommit 4333e7be3cef1aa836037e5d2d0ebd88cd1aea05[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 20:22:25 2025 +0530
+
+    freeze requirements.txt file
+
+[33mcommit 0bb8d1b0aa4f397adba1513872696e8833d07dc3[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 20:21:22 2025 +0530
+
+    create postgresql database for render support and debug is true
+
+[33mcommit fe2eb7af8410fe302dac07b910333e94516d31e2[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 19:28:03 2025 +0530
+
+    mysql database not support in render free service
+
+[33mcommit e190e29bdda9599d2fa309751881fbdbd66b0512[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 18:53:05 2025 +0530
+
+    there is not error due to authentication it may be due to database or debug true
+
+[33mcommit 8ac7d506660f9340bfc174aece8b39aa90257e98[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 18:47:04 2025 +0530
+
+    hide authenticaion it show error on production
+
+[33mcommit cc797615e76dbd02097151d550a14e086f6a2c67[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Jan 2 18:38:19 2025 +0530
+
+    set things for and database is mysql
+
+[33mcommit b06de60a490f0d7fa1a72b475b89bcfc1f504e2e[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Tue Dec 31 15:41:58 2024 +0530
+
+    try for database mysql and handling error
+
+[33mcommit e11fcb17748c36b68ecb969ce0dbab67ff82b94f[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Tue Dec 31 15:14:28 2024 +0530
+
+    debug is true
+
+[33mcommit 667510bb98a7ded44f33402d1706582ff79807a3[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Tue Dec 31 15:11:52 2024 +0530
+
+    checking mysql database render
+
+[33mcommit 16cce27435fb7943578a10cf8aa551697b2f48f0[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Tue Dec 31 13:42:36 2024 +0530
+
+    Prepared project for deployment
+
+[33mcommit bc986744986b2804c453276dda6103506bfb315e[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Tue Dec 31 13:10:35 2024 +0530
+
+    adding mysql database for production side
+
+[33mcommit aa3794ff5f07b04633500aab379fbe4d7e72aa46[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Dec 21 17:30:14 2024 +0530
+
+    correct slug of cyber truck
+
+[33mcommit e357a4ecfe9ce59d90e03ce21785817effc5bec8[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Sat Dec 21 17:23:10 2024 +0530
+
+    posting first six blog and change the place of author in bloghome
+
+[33mcommit 8b962e1acc7caf8ab21a80c018413aeff172ad56[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 19:37:17 2024 +0530
+
+    debug is true and add first content
+
+[33mcommit 8b7ed7e32f7f7f717c294916ee8b8738594cd66f[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 19:29:25 2024 +0530
+
+    debug is false and delete all pre load content
+
+[33mcommit d6a078508ffbf6408a62ee08f1959e84dd533df3[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 19:21:05 2024 +0530
+
+    do debug false
+
+[33mcommit d038273ad1b8584056112f99e381cb787054e54b[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 19:14:47 2024 +0530
+
+    debug is true and try to create a media server file
+
+[33mcommit 304258ea1796d998687242c34f3af0d203b43bb2[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 16:49:42 2024 +0530
+
+    fix storage for gadgetBlog
+
+[33mcommit b14ffde6a8742e4b6402f3c184118b246f703313[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Fri Dec 20 16:41:44 2024 +0530
+
+    make storage for media file of gadgetBlog
+
+[33mcommit 7e7655ef11d512309731b07187fd219685212aef[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 20:34:10 2024 +0530
+
+    correct comment and improve ui of bloghome page
+
+[33mcommit 2128fe55cdaa4b4a05d96c012a9868176328761f[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 19:15:31 2024 +0530
+
+    fixing bootstrap ui for production
+
+[33mcommit 6680e5469c7600ddba33c262e62024c6fbce01a6[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 18:35:04 2024 +0530
+
+    correcting admin panal ui and staticfiles and footer links
+
+[33mcommit 08d9ff3cd7ceb319e1383a4ac50486abea5f332e[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 18:09:48 2024 +0530
+
+    creating footer for site
+
+[33mcommit 0c8df1170b3cc12a78b73f69432b7f3973e0612f[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 18:06:52 2024 +0530
+
+    correcting admin panal url
+
+[33mcommit 956729b1167206c761ca36ede4b8fe97fb9755ce[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:59:53 2024 +0530
+
+    again fixing for admin panal
+
+[33mcommit aa5c048d6bba4338432febd81c6f426233fcc165[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:50:18 2024 +0530
+
+    fixing url for production for production for admin panal
+
+[33mcommit d924312a7d2cb3af7a29bcce607977c96384a47b[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:46:34 2024 +0530
+
+    create path for admin panal for production
+
+[33mcommit 772b0e04a8d89ba38a9c2c44b951902b8ce45ec5[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:39:20 2024 +0530
+
+    this is my final and ok project for production
+
+[33mcommit 3a1e01b489ebfc0be2c614d8a03c1de548d1e639[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:18:55 2024 +0530
+
+    fix static files and media files for production
+
+[33mcommit 490409a1209d980d16f19eb46d20c30eaf75904d[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:12:21 2024 +0530
+
+    fixing media files for production
+
+[33mcommit bff5be507285aaad4db7bc8c135a37f823646616[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 17:10:35 2024 +0530
+
+    fixing medai file for production
+
+[33mcommit c4b3b49def4bf0920e1e84724e149011ba5f6ff4[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 16:45:44 2024 +0530
+
+    fix gincorn for deploy
+
+[33mcommit 86e29f6ce38350213fd27bc0b5b9529b301c5c8a[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Dec 19 16:37:13 2024 +0530
+
+    create final project for deploy on render
+
+[33mcommit 5a907a4738b6810fb0e83255100dc2e6bc172a1c[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Oct 3 20:43:09 2024 +0530
+
+    reply fix all files first time
+
+[33mcommit 890837a036dd5959bab86dba0ede8eb1f36e9ff3[m
+Author: AbhayThakkur <abhaythakurpy@gmail.com>
+Date:   Thu Oct 3 19:27:26 2024 +0530
+
+    add all files first time

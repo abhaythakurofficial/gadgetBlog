@@ -1,0 +1,62 @@
+{% extends "basic.html" %}
+{% load static %}
+
+{% block title %}Search Results{% endblock title %}
+{% block homeactive %}active{% endblock homeactive %}
+{% block css %}
+    <link href="{% static 'home.css' %}" rel="stylesheet">
+{% endblock css %}
+
+{% block body %}
+<!-- Error messages -->
+<div class="mb-0">
+    {% if messages %}
+    <div class=" ">
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+</div>
+
+        <div class="container mt-4">
+            <h1>Search Results</h1>
+            <div class="row my-5">
+                {% if allposts|length < 1 %}
+                <p>No search results</p>
+                Your search query : <b>{{search}}</b> did not match any documents. <br>
+                Suggestions:
+                <ul>
+                <li>Make sure that all words are spelled correctly.</li>
+                <li>Try more general keywords.</li>
+                <li> Try fewer keywords.</li>
+                <li> Try different keywords.</li>
+                </li>
+                </ul>                
+                {% endif %}
+                {% for post in allposts %}
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card blog-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-7 d-flex flex-column p-4">
+                                <strong class="d-inline-block mb-2 text-primary">Article by {{ post.author }}</strong>
+                                <h3 class="mb-0">{{ post.title }}</h3>
+                                <div class="mb-1 text-muted">{{ post.updated_at }}</div>
+                                <p class="card-text mb-auto">{{ post.content|truncatechars:200 }}</p>
+                                <a href="/blog/{{ post.slug }}/" class="stretched-link btn btn-primary">
+                                    Continue reading
+                                </a>
+                            </div>
+                            <div class="col-md-5 d-none d-md-block">
+                                <img src="{{ post.image.url }}" alt="post image" class="img-fluid img-field">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+{% endblock body %}

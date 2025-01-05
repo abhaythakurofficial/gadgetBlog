@@ -1,0 +1,23 @@
+{% extends "basic.html" %}
+{% block title %}About{% endblock title %}
+{% block aboutactive %}active{% endblock aboutactive%}
+{% load static %}
+{% block body %}
+<header class="bg-primary text-white text-center py-4">
+    <h1>About Abhay Thakur</h1>
+</header>
+
+<div class="container mt-5 text-center">
+    <img src="{% static "blog/writer.jpg" %}" class="rounded-circle mb-3" alt="Abhay Thakur" width="200" height="200">
+    <h2>Abhay Thakur</h2>
+    <p>Full-stack developer, Python enthusiast, and AI learner. Passionate about technology and innovation.</p>
+
+    <div class="mt-4">
+        <a href="https://x.com/AbhayTh81868799" target="blank" class="btn btn-primary me-2">Twitter</a>
+        <a href="https://github.com/AbhayThakkur" target="blank" class="btn btn-dark me-2">GitHub</a>
+        <a href="https://www.linkedin.com/in/abhaythakur07/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BGDH4M0uhTAqKyBU6owy7rA%3D%3D" target="blank" class="btn btn-danger">LinkedIn</a>
+        <a href="https://www.instagram.com/abhay.100150/?__pwa=1#" class="btn bg-primary-subtle" target="blank">Instagram</a>
+    </div>
+</div>
+
+{% endblock body %}
