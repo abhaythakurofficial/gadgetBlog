@@ -12,15 +12,15 @@
         <div class="row g-0">
             <div class="col-md-4">
                 {% if movie.poster_1 %}
-                    <img src="{{ movie.poster_1_url }}" class="img-fluid rounded-start" alt="{{ movie.title }}">
+                    <img src="{{ movie.poster_1.url }}" class="img-fluid rounded-start my-3" alt="{{ movie.title }}">
                 {% endif %}
                 
                 {% if movie.poster_2 %}
-                    <img src="{{ movie.poster_2_url }}" class="img-fluid rounded-start" alt="{{ movie.title }}">
+                    <img src="{{ movie.poster_2.url }}" class="img-fluid rounded-start my-3" alt="{{ movie.title }}">
                 {% endif %}
                 
                 {% if movie.poster_3 %}
-                    <img src="{{ movie.poster_3_url }}" class="img-fluid rounded-start" alt="{{ movie.title }}">
+                    <img src="{{ movie.poster_3.url }}" class="img-fluid rounded-start my-3" alt="{{ movie.title }}">
                 {% endif %}
             </div>
             
