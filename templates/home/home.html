@@ -29,7 +29,7 @@
             {% for post in allposts %}
             <div class="col-md-4 col-sm-6">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img class="card-img-top img-fluid rounded-top" src="{{ post.image.url }}" alt="{{ post.title }}">
+                    <img class="card-img-top img-fluid rounded-top" src="{{ post.image_url }}" alt="{{ post.title }}">
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">{{ post.title }}</h4>
                         <strong class="text-primary mb-2">Article by {{ post.author }}</strong>
